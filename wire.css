@@ -1,0 +1,222 @@
+.question-box {
+    width: 80%;
+    padding: 40px;
+    margin:0 auto;
+    background:rgba(89, 231, 101, 0.8);
+    border-radius: 10px;
+  }
+  
+  .crisp-text {
+    font-size: 25px;
+  }
+  
+  .success, .failure {
+    border-radius: 10px ;
+    border: solid yellowgreen 10px;
+  }
+  
+  body {
+    box-sizing: border-box;
+    background-color: navy;
+    background-image:url("fortnite-starter-img.jpeg");
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  
+  h1 {
+    font-family: '', sans-serif;
+    word-spacing: -15px;
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: white;
+    
+  }
+  
+  button {
+    margin-top:10px;
+    height: auto;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color:black;
+    background: plum;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 0;
+    border-radius:10px;
+    padding: 10px 20px;
+  }
+  
+  
+  button:hover:enabled,
+  button:focus:enabled{
+    background-color: rgb(223, 121, 223);
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+  }
+  
+  p {
+    margin-top: 4px;
+    margin-bottom: 4px;  
+  }
+  
+  .quiz-item button,
+  .quiz-item label,
+  .quiz-item input[type="radio"] {
+    display: inline-block;
+  }
+  
+  .quiz-item label {
+    padding: 10px;
+    position: relative;
+    top: 1px;
+    max-width: 90%;
+  }
+  
+  .quiz-item a {
+    text-decoration:none;
+    margin-left:10px;
+    color: black;
+  }
+  
+  .quiz-item a:hover,
+  .quiz-item a:focus,
+  .quiz-item a:visited,
+  .quiz-item a:active {
+    color: black;
+  }
+  
+  .quiz-item fieldset {
+    border: 0;
+  }
+  
+  .question {
+    font-size: 30px;
+  }
+  
+  @media only screen and (min-width: 640px) {
+    h1 {
+      font-size: 100px;
+      word-spacing: -25px;
+    }
+    img {
+      width: 600px;
+      display:block;
+    }
+    .failure,
+    .success {
+      width: 400px;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .quiz-state {
+      display:inline-block;
+      float: right;
+      position:relative;
+      bottom:4px;
+    }
+  }
+  
+  .quiz-item {
+    padding: 15px;
+    color: black;
+  }
+  
+  .quiz-item-header {
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    border: solid yellowgreen 10px;
+    border-bottom-width: 0;
+  }
+  
+  .quiz-item-footer {
+    background-color: beige;
+    border: solid plum 10px;
+    border-radius: 0 0 10px 10px;
+    border-top-width: 0;
+    padding: 15px;
+  }
+  
+  .invisible {
+    display: none;
+  }
+  
+  .button-square {
+    display: inline-block;
+    background-color: plum;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .button-arrow {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: -5px;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 21px solid plum;  
+  }
+  
+  
+
+.correct, .incorrect {
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: bold;
+
+}
+  .js-quiz-item-feedback-section {
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .quiz-state {
+    display:block;
+    color: black;
+  }
+  
+  .crisp-text {
+    text-rendering: geometricPrecision;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .row {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  
+  
+  .row::before,
+  .row::after {
+    display: table;
+    content: '';
+  }
+  
+  .row::after {
+    clear: both;
+  }
+  
+  .col-12 {
+    float: left;
+     padding-left: 1.04166666%;
+     padding-right: 1.04166666%;
+     width: 100%;
+   }
