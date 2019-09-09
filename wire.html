@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Fortnite Quiz</title>
+  <!-- Normalize.css, a cross-browser reset file -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+  <!-- Google Font -->
 
-  <link href="fort.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
   <header type="banner">
@@ -84,23 +86,21 @@
       <div class="col-12">
         <p class="js-quiz-feedback crisp-text"></p>
         <div class="js-success invisible">
-          <img class="success" src="winning image.png" alt="winner-pic">
+          <img class="success" src="images/success.gif" alt="">
         </div>
         <div class="js-failure invisible">
-          <img class="failure" src="fortFail.jpg" alt="loser">
+          <img class="failure" src="images/failure.gif" alt="">
         </div>
+         <p>Success you got 5 out of 5 correct!</p>   <!-- this will be removed in the final-->
+        <div class ="img">Success img</div> <!-- these two divs will also be removed-->
+        <div class = "img">failure img</div>
         <button type="button" id="restartQuiz">Restart Quiz!</button>
       </div>
     </div>
 
   </main>
   <script src="//code.jquery.com/jquery.min.js"></script>
-  <script src="fort.js"></script>
+  <script src="script.js"></script>
   <script src="store.js"></script>
 </body>
 </html>
-
-
-
-
-
