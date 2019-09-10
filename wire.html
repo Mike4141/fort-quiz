@@ -7,6 +7,7 @@
   <title>Fortnite Quiz</title>
   <!-- Normalize.css, a cross-browser reset file -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+  <!-- Google Font -->
 
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -29,26 +30,28 @@
     
     <div class="row js-quiz-item invisible">
       <div class="col-12 quiz-item-header">
+        <p class = "quiz-question">Who ate peely?</p>
         <form id="js-quiz-item" class="quiz-item" method="post" action="/submit-quiz-item">
            <fieldset>
             <legend class="question js-question"></legend>
             <div class="radio-option-container">
-              <input type="radio" name="answer-options" id="option-0" value="0" required>
+             
+              <input type="radio" name="answer-options" id="option-0" value="0" required <p>Panda</p>
               <label for="option-0"></label>
             </div>
           
             <div class="radio-option-container">
-              <input type="radio" name="answer-options" id="option-1" value="1">
+              <input type="radio" name="answer-options" id="option-1" value="1"<p>Lux</p>
               <label for="option-1"></label>
             </div>
 
             <div class="radio-option-container">
-              <input type="radio" name="answer-options" id="option-2" value="2">
+              <input type="radio" name="answer-options" id="option-2" value="2"<p>Bunker Jonesy</p>
               <label for="option-2"></label>
             </div>
           
             <div class="radio-option-container">
-              <input type="radio" name="answer-options" id="option-3" value="3">
+              <input type="radio" name="answer-options" id="option-3" value="3"<p>Vendetta</p>
               <label for="option-3"></label>
             </div>
           </fieldset>
@@ -73,6 +76,7 @@
         </div>
         <div class="invisible quiz-state js-quiz-state">
           <p>
+           <p>Success your answer is correct!</p>
             <span class="correct"></span>correct 
             <span class="incorrect"></span>incorrect
           </p>
